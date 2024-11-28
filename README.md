@@ -5,13 +5,13 @@ This project is a Role-Based Access Control (RBAC) system with a frontend built 
 It allows you to manage users and roles in a table format, with the ability to **add**, **edit**, and **delete users and roles**. Each user has a **name**, **role**, and **status (active/inactive)**.
 
  # Features
-# User Creation:
+**User Creation:**
  Add new users quickly by filling out a simple form with their name, email, and role. The email field includes validation to ensure the format is correct before submission.
-# User Management: 
+**User Management:**
  Modify existing users with ease. Just click the "Edit" button next to any user in the table, and the form will automatically populate with their current details for editing.
-# User Deletion:  
+**User Deletion:**  
  Remove users directly from the user table. Once deleted, their information will be permanently erased from the system.
-# Mobile-First Design: 
+**Mobile-First Design:**
  Enjoy seamless functionality across all devices. The app is fully responsive, ensuring that both tables and forms automatically adjust to fit different screen sizes, whether you're on a desktop or mobile.
 
 # Hacker UI Mode:
