@@ -1,14 +1,18 @@
 # User Management Role-Based Access Control (RBAC) System
 
-**Overview**
+# Overview
 This project is a Role-Based Access Control (RBAC) system with a frontend built using React. It allows you to manage users, roles, and permissions efficiently. The system is designed with a "hacker-style" user interface, featuring neon green text and dark background. It also includes a footer with dynamic information, styled to look like a terminal.
 It allows you to manage users and roles in a table format, with the ability to **add**, **edit**, and **delete users and roles**. Each user has a **name**, **role**, and **status (active/inactive)**.
 
-**Features**
-**User Creation:** Add new users quickly by filling out a simple form with their name, email, and role. The email field includes validation to ensure the format is correct before submission.
-**User Management:** Modify existing users with ease. Just click the "Edit" button next to any user in the table, and the form will automatically populate with their current details for editing.
-**User Deletion:** Remove users directly from the user table. Once deleted, their information will be permanently erased from the system.
-**Mobile-First Design:** Enjoy seamless functionality across all devices. The app is fully responsive, ensuring that both tables and forms automatically adjust to fit different screen sizes, whether you're on a desktop or mobile.
+ # Features
+# User Creation:
+ Add new users quickly by filling out a simple form with their name, email, and role. The email field includes validation to ensure the format is correct before submission.
+# User Management: 
+ Modify existing users with ease. Just click the "Edit" button next to any user in the table, and the form will automatically populate with their current details for editing.
+# User Deletion:  
+ Remove users directly from the user table. Once deleted, their information will be permanently erased from the system.
+# Mobile-First Design: 
+ Enjoy seamless functionality across all devices. The app is fully responsive, ensuring that both tables and forms automatically adjust to fit different screen sizes, whether you're on a desktop or mobile.
 
 **Hacker UI Mode:**
 -Dark, Sleek Interface: Activate a stylish dark mode that gives your app a modern, hacker-inspired look. Perfect for those who love a clean, minimalist aesthetic with high contrast for better focus.
