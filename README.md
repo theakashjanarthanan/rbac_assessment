@@ -14,13 +14,13 @@ It allows you to manage users and roles in a table format, with the ability to *
 # Mobile-First Design: 
  Enjoy seamless functionality across all devices. The app is fully responsive, ensuring that both tables and forms automatically adjust to fit different screen sizes, whether you're on a desktop or mobile.
 
-**Hacker UI Mode:**
+# Hacker UI Mode:
 -Dark, Sleek Interface: Activate a stylish dark mode that gives your app a modern, hacker-inspired look. Perfect for those who love a clean, minimalist aesthetic with high contrast for better focus.
 -Terminal-style Design: Mimic a terminal interface with text-based commands and neon highlights to give users the feel of navigating a real coding environment.
 -Customizable Themes: Choose from a variety of hacker-themed skins or create your own to match your preferences. Whether you prefer a classic green-on-black or something more vibrant, the UI adapts to suit your style.
 -Enhanced Visual Effects: Experience smooth animations and transitions that bring the "hacker" vibe to life, making your interactions with the app more immersive and engaging.
   
-**Technology Stack:**
+# Technology Stack:
 **Frontend:** React, React Router, CSS
 **State Management:** React State
 **Version Control:** Git, GitHub
