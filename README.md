@@ -25,19 +25,26 @@ It allows you to manage users and roles in a table format, with the ability to *
 
 ## How to Use
 1. **Clone the repository: First, clone the repository to your local machine using Git. Open your terminal or command prompt and run the following command:**
+
    ```bash
    git clone https://github.com/theakashjanarthanan/rbac_assessment.git
 
-**2.Navigate to the project folder: Once the repository is cloned, go into the project directory by running:**
-cd rbac_assessment
+2. **Navigate to the project folder: Once the repository is cloned, go into the project directory by running:**
+
+   ```bash
+   cd rbac_assessment
 
 3. **Install dependencies:**
-   - (Assuming you have Node.js and npm installed)
-   - Run the below command to install all the required dependencies.
-    npm install
+  (Assuming you have Node.js and npm installed)
+  Run the below command to install all the required dependencies
+
+   ```bash
+   npm install
+
 
 4. **Start the application:**
-   - Run the below command to start the project locally.
+    Run the command to start the application
+    ```bash
     npm start
 
 
