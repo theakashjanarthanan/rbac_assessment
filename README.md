@@ -25,8 +25,11 @@ Enhanced Visual Effects: Experience smooth animations and transitions that bring
   
 # Technology Stack:
 **Frontend:** React, React Router, CSS
+
 **State Management:** React State
+
 **Version Control:** Git, GitHub
+
 **Deployment:** Netlify, Vercel (optional)
 
 
