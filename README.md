@@ -51,7 +51,8 @@ It allows you to manage users and roles in a table format, with the ability to *
 ## Interacting with the Application
 Run the below command to install all the required dependencies
 Open this URL in your web browser to view the app.
+The app will now be running at
 ```bash
-The app will now be running at http://localhost:3000. 
+ http://localhost:3000. 
 
 
