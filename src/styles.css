@@ -1,0 +1,252 @@
+/* Overall Body */
+body {
+  background-color: #121212; /* Dark background */
+  color: #00FF00; /* Neon green text */
+  font-family: 'Courier New', Courier, monospace; /* Monospace font */
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+/* Main Container */
+.App {
+  text-align: center;
+  color: #00FF00;
+  padding: 20px;
+}
+
+/* Heading Styles */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #00FF00;
+  text-align: center;
+}
+
+th {
+  background-color: #333;
+  font-size: 1.1rem;
+}
+
+td {
+  background-color: #222;
+}
+
+/* Button Styles */
+button {
+  background-color: #00FF00;
+  color: #121212;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00CC00;
+}
+
+/* Form Styles */
+input, select {
+  background-color: #222;
+  color: #00FF00;
+  border: 1px solid #00FF00;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+}
+
+input[type="text"], select {
+  font-size: 1rem;
+}
+
+/* Role List and User List */
+.role-list, .user-list {
+  background-color: #1d1d1d;
+  border: 1px solid #00FF00;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.role-form, .user-form {
+  background-color: #1d1d1d;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #00FF00;
+  border-radius: 10px;
+  
+}
+
+/* Neon Glowing Effects */
+h1, h2, button, th {
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+}
+
+/* Add some small animations */
+@keyframes blink {
+  50% {
+    opacity: 0.3;
+  }
+}
+
+button {
+  animation: blink 1.5s infinite;
+}
+
+
+/* Aligning permissions checkboxes horizontally *//* Aligning the form section to the right */
+.role-form div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+  justify-content: flex-end; /* Move the checkboxes to the right */
+  align-items: center; /* Align the checkboxes vertically */
+}
+
+/* Ensuring the entire form container is centered horizontally */
+.role-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center form elements */
+  width: 100%;
+}
+
+/* Styling the labels and checkboxes */
+.role-form label {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1rem;
+  margin-right: 15px;
+}
+
+.role-form input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+ 
+/* Aligning permissions checkboxes horizontally */
+.role-form div {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping if there are many checkboxes */
+  gap: 10px; /* Space between checkboxes */
+  margin-bottom: 15px; /* Space below the permission section */
+  justify-content: center; /* Align checkboxes to the center */
+}
+
+/* Styling for checkboxes */
+.role-form label {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1rem;
+  margin-right: 15px;
+  transition: background-color 0.3s ease, padding 0.3s ease; /* Smooth transition for hover */
+  padding: 5px;
+  border-radius: 5px; /* Slight rounding of corners */
+}
+
+/* Add hover effect for checkbox labels */
+.role-form label:hover {
+  background-color: #e0e0e0; /* Light background color when hovered */
+  cursor: pointer; /* Change the cursor to a pointer */
+}
+
+/* Optional: Change the checkbox color or add an effect */
+.role-form input[type="checkbox"]:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+  transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+
+/* Optional: Hover effect for the Add/Save button */
+.role-form button:hover {
+  background-color: #4CAF50;  /* Change background color on hover */
+  color: white;  /* Change text color to white */
+  cursor: pointer;  /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+/* Body and App Layout */
+body {
+  margin: 0;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column; /* Arrange content vertically */
+}
+
+.App {
+  flex: 1; /* Let this part take available space, pushing footer to bottom */
+  padding-bottom: 60px; /* Ensure content doesn't hide behind footer */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hacker-style footer */
+.hacker-footer {
+  background-color: #000; /* Black background */
+  color: #00FF00; /* Green text (hacker-like green) */
+  font-family: 'Courier New', Courier, monospace; /* Monospace font for the hacker style */
+  padding: 20px;
+  position: relative; /* Make the footer absolute */
+  bottom: 0; /* Position it at the bottom of the screen */
+  left: 0;
+  width: 100%; /* Full width of the screen */
+  z-index: 9999; /* Make sure it's always on top */
+  box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.3); /* Neon-like glow effect */
+  text-align: center;
+}
+
+.footer-content {
+   
+  display: grid;
+  grid-template-columns: 1fr; /* Single column for simplicity */
+  gap: 10px;
+  text-align: c;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.footer-content p {
+  margin: 5px 0;
+}
+
+.code-green {
+  color: #00FF00;
+}
+
+/* Optional hover effect */
+.hacker-footer p:hover {
+  color: #33FF00;
+  transition: color 0.2s ease-in-out;
+}
+
+/* Ensure content area pushes the footer down */
+.App {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+  margin-top: auto; /* Ensures the footer stays at the bottom */
+  padding: 1rem;
+}
+
